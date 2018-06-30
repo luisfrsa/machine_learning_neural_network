@@ -3,7 +3,7 @@ services:
   tensorflow:
     build: . 
     volumes:
-       - ./../:/home/tensorflow  
+       - /home/luis/Documents/projetos/tensorflow:/home/tensorflow  
     ports:
       - "8888:8888"
       - "6006:6006"
