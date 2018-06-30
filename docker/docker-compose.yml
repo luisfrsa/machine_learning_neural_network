@@ -1,0 +1,9 @@
+version: '3.1'
+services:
+  tensorflow:
+    build: . 
+    volumes:
+       - /home/luis_adm/Documents/projetos/tensorflow:/home/tensorflow  
+    ports:
+      - "8888:8888"
+      - "6006:6006"
