@@ -1,0 +1,323 @@
+==> saida_32,64,128,64,32,2_1000_5_mean_squared_error_crelu_adadelta_fim.txt <==
+    return cls(**config)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/layers/core.py", line 778, in __init__
+    activation=activations.get(activation),
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/activations.py", line 119, in get
+    return deserialize(identifier)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/activations.py", line 111, in deserialize
+    printable_module_name='activation function')
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/utils/generic_utils.py", line 184, in deserialize_keras_object
+    function_name)
+ValueError: Unknown activation function:crelu
+
+==> saida_32,64,128,64,32,2_1000_5_mean_squared_error_crelu_rms_fim.txt <==
+    return cls(**config)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/layers/core.py", line 778, in __init__
+    activation=activations.get(activation),
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/activations.py", line 119, in get
+    return deserialize(identifier)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/activations.py", line 111, in deserialize
+    printable_module_name='activation function')
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/utils/generic_utils.py", line 184, in deserialize_keras_object
+    function_name)
+ValueError: Unknown activation function:crelu
+
+==> saida_32,64,128,64,32,2_1000_5_mean_squared_error_crelu_sgd_fim.txt <==
+    return cls(**config)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/layers/core.py", line 778, in __init__
+    activation=activations.get(activation),
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/activations.py", line 119, in get
+    return deserialize(identifier)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/activations.py", line 111, in deserialize
+    printable_module_name='activation function')
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/utils/generic_utils.py", line 184, in deserialize_keras_object
+    function_name)
+ValueError: Unknown activation function:crelu
+
+==> saida_32,64,128,64,32,2_1000_5_mean_squared_error_elu_adadelta_fim.txt <==
+370/445 [=======================>......]370/445 [=======================>......] - ETA: 0s - loss: 0.1451 - acc: 0.8135
+445/445 [==============================]445/445 [==============================] - 0s 275us/step - loss: 0.1476 - acc: 0.8067
+
+Epoch 1000/1000
+
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 0.0497 - acc: 1.0000
+190/445 [===========>..................]190/445 [===========>..................] - ETA: 0s - loss: 0.1653 - acc: 0.7684
+375/445 [========================>.....]375/445 [========================>.....] - ETA: 0s - loss: 0.1499 - acc: 0.7947
+445/445 [==============================]445/445 [==============================] - 0s 270us/step - loss: 0.1477 - acc: 0.8022
+
+
+==> saida_32,64,128,64,32,2_1000_5_mean_squared_error_elu_rms_fim.txt <==
+265/445 [================>.............]265/445 [================>.............] - ETA: 0s - loss: 0.5245 - acc: 0.4755    
+425/445 [===========================>..]425/445 [===========================>..] - ETA: 0s - loss: 0.5247 - acc: 0.4753
+445/445 [==============================]445/445 [==============================] - 0s 241us/step - loss: 0.5236 - acc: 0.4764
+
+Epoch 1000/1000
+
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 0.8000 - acc: 0.2000
+250/445 [===============>..............]250/445 [===============>..............] - ETA: 0s - loss: 0.5320 - acc: 0.4680
+445/445 [==============================]445/445 [==============================] - 0s 215us/step - loss: 0.5236 - acc: 0.4764
+
+
+==> saida_32,64,128,64,32,2_1000_5_mean_squared_error_elu_sgd_fim.txt <==
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 0.1808 - acc: 0.6000
+285/445 [==================>...........]285/445 [==================>...........] - ETA: 0s - loss: 0.0798 - acc: 0.9053
+445/445 [==============================]445/445 [==============================] - 0s 182us/step - loss: 0.0754 - acc: 0.9079
+
+Epoch 1000/1000
+
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 9.5363e-04 - acc: 1.0000
+275/445 [=================>............]275/445 [=================>............] - ETA: 0s - loss: 0.0661 - acc: 0.9273    
+445/445 [==============================]445/445 [==============================] - 0s 194us/step - loss: 0.0711 - acc: 0.9056
+
+
+==> saida_32,64,128,64,32,2_1000_5_mean_squared_error_selu_adadelta_fim.txt <==
+445/445 [==============================]445/445 [==============================] - 0s 250us/step - loss: 0.1186 - acc: 0.8562
+
+Epoch 1000/1000
+
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 0.1125 - acc: 0.8000
+165/445 [==========>...................]165/445 [==========>...................] - ETA: 0s - loss: 0.1086 - acc: 0.8788
+285/445 [==================>...........]285/445 [==================>...........] - ETA: 0s - loss: 0.1194 - acc: 0.8632
+410/445 [==========================>...]410/445 [==========================>...] - ETA: 0s - loss: 0.1229 - acc: 0.8488
+445/445 [==============================]445/445 [==============================] - 0s 368us/step - loss: 0.1187 - acc: 0.8539
+
+
+==> saida_32,64,128,64,32,2_1000_5_mean_squared_error_selu_rms_fim.txt <==
+225/445 [==============>...............]225/445 [==============>...............] - ETA: 0s - loss: 0.4356 - acc: 0.5644
+445/445 [==============================]445/445 [==============================] - 0s 231us/step - loss: 0.4764 - acc: 0.5236
+
+Epoch 1000/1000
+
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 1.0000 - acc: 0.0000e+00
+225/445 [==============>...............]225/445 [==============>...............] - ETA: 0s - loss: 0.4800 - acc: 0.5200    
+440/445 [============================>.]440/445 [============================>.] - ETA: 0s - loss: 0.4750 - acc: 0.5250
+445/445 [==============================]445/445 [==============================] - 0s 233us/step - loss: 0.4764 - acc: 0.5236
+
+
+==> saida_32,64,128,64,32,2_1000_5_mean_squared_error_selu_sgd_fim.txt <==
+430/445 [===========================>..]430/445 [===========================>..] - ETA: 0s - loss: 0.0493 - acc: 0.9326
+445/445 [==============================]445/445 [==============================] - 0s 239us/step - loss: 0.0488 - acc: 0.9326
+
+Epoch 1000/1000
+
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 6.5067e-04 - acc: 1.0000
+200/445 [============>.................]200/445 [============>.................] - ETA: 0s - loss: 0.0548 - acc: 0.9300    
+385/445 [========================>.....]385/445 [========================>.....] - ETA: 0s - loss: 0.0479 - acc: 0.9429
+445/445 [==============================]445/445 [==============================] - 0s 304us/step - loss: 0.0499 - acc: 0.9393
+
+
+==> saida_32,64,128,64,32,2_1000_5_mean_squared_logarithmic_error_crelu_adadelta_fim.txt <==
+    return cls(**config)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/layers/core.py", line 778, in __init__
+    activation=activations.get(activation),
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/activations.py", line 119, in get
+    return deserialize(identifier)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/activations.py", line 111, in deserialize
+    printable_module_name='activation function')
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/utils/generic_utils.py", line 184, in deserialize_keras_object
+    function_name)
+ValueError: Unknown activation function:crelu
+
+==> saida_32,64,128,64,32,2_1000_5_mean_squared_logarithmic_error_crelu_rms_fim.txt <==
+    return cls(**config)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/layers/core.py", line 778, in __init__
+    activation=activations.get(activation),
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/activations.py", line 119, in get
+    return deserialize(identifier)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/activations.py", line 111, in deserialize
+    printable_module_name='activation function')
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/utils/generic_utils.py", line 184, in deserialize_keras_object
+    function_name)
+ValueError: Unknown activation function:crelu
+
+==> saida_32,64,128,64,32,2_1000_5_mean_squared_logarithmic_error_crelu_sgd_fim.txt <==
+    return cls(**config)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/layers/core.py", line 778, in __init__
+    activation=activations.get(activation),
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/activations.py", line 119, in get
+    return deserialize(identifier)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/activations.py", line 111, in deserialize
+    printable_module_name='activation function')
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/utils/generic_utils.py", line 184, in deserialize_keras_object
+    function_name)
+ValueError: Unknown activation function:crelu
+
+==> saida_32,64,128,64,32,2_1000_5_mean_squared_logarithmic_error_elu_adadelta_fim.txt <==
+435/445 [============================>.]435/445 [============================>.] - ETA: 0s - loss: 0.0720 - acc: 0.8046
+445/445 [==============================]445/445 [==============================] - 0s 236us/step - loss: 0.0722 - acc: 0.8045
+
+Epoch 1000/1000
+
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 0.0132 - acc: 1.0000
+200/445 [============>.................]200/445 [============>.................] - ETA: 0s - loss: 0.0696 - acc: 0.8150
+390/445 [=========================>....]390/445 [=========================>....] - ETA: 0s - loss: 0.0676 - acc: 0.8231
+445/445 [==============================]445/445 [==============================] - 0s 262us/step - loss: 0.0722 - acc: 0.8022
+
+
+==> saida_32,64,128,64,32,2_1000_5_mean_squared_logarithmic_error_elu_rms_fim.txt <==
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 0.2883 - acc: 0.4000
+260/445 [================>.............]260/445 [================>.............] - ETA: 0s - loss: 0.2606 - acc: 0.4577
+445/445 [==============================]445/445 [==============================] - 0s 199us/step - loss: 0.2516 - acc: 0.4764
+
+Epoch 1000/1000
+
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 0.2883 - acc: 0.4000
+255/445 [================>.............]255/445 [================>.............] - ETA: 0s - loss: 0.2393 - acc: 0.5020
+445/445 [==============================]445/445 [==============================] - 0s 202us/step - loss: 0.2516 - acc: 0.4764
+
+
+==> saida_32,64,128,64,32,2_1000_5_mean_squared_logarithmic_error_elu_sgd_fim.txt <==
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 0.0512 - acc: 1.0000
+270/445 [=================>............]270/445 [=================>............] - ETA: 0s - loss: 0.0545 - acc: 0.8556
+445/445 [==============================]445/445 [==============================] - 0s 193us/step - loss: 0.0512 - acc: 0.8652
+
+Epoch 1000/1000
+
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 0.0108 - acc: 1.0000
+270/445 [=================>............]270/445 [=================>............] - ETA: 0s - loss: 0.0473 - acc: 0.8556
+445/445 [==============================]445/445 [==============================] - 0s 230us/step - loss: 0.0517 - acc: 0.8404
+
+
+==> saida_32,64,128,64,32,2_1000_5_mean_squared_logarithmic_error_selu_adadelta_fim.txt <==
+375/445 [========================>.....]375/445 [========================>.....] - ETA: 0s - loss: 0.0523 - acc: 0.8587
+445/445 [==============================]445/445 [==============================] - 0s 272us/step - loss: 0.0565 - acc: 0.8517
+
+Epoch 1000/1000
+
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 0.2067 - acc: 0.6000
+195/445 [============>.................]195/445 [============>.................] - ETA: 0s - loss: 0.0590 - acc: 0.8513
+385/445 [========================>.....]385/445 [========================>.....] - ETA: 0s - loss: 0.0573 - acc: 0.8519
+445/445 [==============================]445/445 [==============================] - 0s 270us/step - loss: 0.0564 - acc: 0.8517
+
+
+==> saida_32,64,128,64,32,2_1000_5_mean_squared_logarithmic_error_selu_rms_fim.txt <==
+435/445 [============================>.]435/445 [============================>.] - ETA: 0s - loss: 0.2308 - acc: 0.5195
+445/445 [==============================]445/445 [==============================] - 0s 238us/step - loss: 0.2289 - acc: 0.5236
+
+Epoch 1000/1000
+
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 0.2883 - acc: 0.4000
+180/445 [===========>..................]180/445 [===========>..................] - ETA: 0s - loss: 0.2536 - acc: 0.4722
+345/445 [======================>.......]345/445 [======================>.......] - ETA: 0s - loss: 0.2367 - acc: 0.5072
+445/445 [==============================]445/445 [==============================] - 0s 299us/step - loss: 0.2289 - acc: 0.5236
+
+
+==> saida_32,64,128,64,32,2_1000_5_mean_squared_logarithmic_error_selu_sgd_fim.txt <==
+440/445 [============================>.]440/445 [============================>.] - ETA: 0s - loss: 0.0262 - acc: 0.9250
+445/445 [==============================]445/445 [==============================] - 0s 232us/step - loss: 0.0260 - acc: 0.9258
+
+Epoch 1000/1000
+
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 0.0042 - acc: 1.0000
+140/445 [========>.....................]140/445 [========>.....................] - ETA: 0s - loss: 0.0235 - acc: 0.9357
+315/445 [====================>.........]315/445 [====================>.........] - ETA: 0s - loss: 0.0242 - acc: 0.9333
+445/445 [==============================]445/445 [==============================] - 0s 322us/step - loss: 0.0260 - acc: 0.9326
+
+
+==> saida_32,64,128,64,32,2_1000_5_squared_hinge_crelu_adadelta_fim.txt <==
+    return cls(**config)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/layers/core.py", line 778, in __init__
+    activation=activations.get(activation),
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/activations.py", line 119, in get
+    return deserialize(identifier)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/activations.py", line 111, in deserialize
+    printable_module_name='activation function')
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/utils/generic_utils.py", line 184, in deserialize_keras_object
+    function_name)
+ValueError: Unknown activation function:crelu
+
+==> saida_32,64,128,64,32,2_1000_5_squared_hinge_crelu_rms_fim.txt <==
+    return cls(**config)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/layers/core.py", line 778, in __init__
+    activation=activations.get(activation),
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/activations.py", line 119, in get
+    return deserialize(identifier)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/activations.py", line 111, in deserialize
+    printable_module_name='activation function')
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/utils/generic_utils.py", line 184, in deserialize_keras_object
+    function_name)
+ValueError: Unknown activation function:crelu
+
+==> saida_32,64,128,64,32,2_1000_5_squared_hinge_crelu_sgd_fim.txt <==
+    return cls(**config)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/layers/core.py", line 778, in __init__
+    activation=activations.get(activation),
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/activations.py", line 119, in get
+    return deserialize(identifier)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/activations.py", line 111, in deserialize
+    printable_module_name='activation function')
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/keras/_impl/keras/utils/generic_utils.py", line 184, in deserialize_keras_object
+    function_name)
+ValueError: Unknown activation function:crelu
+
+==> saida_32,64,128,64,32,2_1000_5_squared_hinge_elu_adadelta_fim.txt <==
+430/445 [===========================>..]430/445 [===========================>..] - ETA: 0s - loss: 0.5716 - acc: 0.8140
+445/445 [==============================]445/445 [==============================] - 0s 238us/step - loss: 0.5719 - acc: 0.8135
+
+Epoch 1000/1000
+
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 0.5483 - acc: 0.8000
+200/445 [============>.................]200/445 [============>.................] - ETA: 0s - loss: 0.5652 - acc: 0.8450
+420/445 [===========================>..]420/445 [===========================>..] - ETA: 0s - loss: 0.5731 - acc: 0.8167
+445/445 [==============================]445/445 [==============================] - 0s 243us/step - loss: 0.5718 - acc: 0.8157
+
+
+==> saida_32,64,128,64,32,2_1000_5_squared_hinge_elu_rms_fim.txt <==
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 0.6000 - acc: 0.8000
+260/445 [================>.............]260/445 [================>.............] - ETA: 0s - loss: 0.7250 - acc: 0.5500
+445/445 [==============================]445/445 [==============================] - 0s 197us/step - loss: 0.7382 - acc: 0.5236
+
+Epoch 1000/1000
+
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 0.8000 - acc: 0.4000
+270/445 [=================>............]270/445 [=================>............] - ETA: 0s - loss: 0.7500 - acc: 0.5000
+445/445 [==============================]445/445 [==============================] - 0s 197us/step - loss: 0.7382 - acc: 0.5236
+
+
+==> saida_32,64,128,64,32,2_1000_5_squared_hinge_elu_sgd_fim.txt <==
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 0.5121 - acc: 1.0000
+270/445 [=================>............]270/445 [=================>............] - ETA: 0s - loss: 0.5507 - acc: 0.8593
+445/445 [==============================]445/445 [==============================] - 0s 190us/step - loss: 0.5550 - acc: 0.8472
+
+Epoch 1000/1000
+
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 0.6196 - acc: 0.8000
+270/445 [=================>............]270/445 [=================>............] - ETA: 0s - loss: 0.5534 - acc: 0.8593
+445/445 [==============================]445/445 [==============================] - 0s 217us/step - loss: 0.5542 - acc: 0.8404
+
+
+==> saida_32,64,128,64,32,2_1000_5_squared_hinge_selu_adadelta_fim.txt <==
+
+Epoch 1000/1000
+
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 0.5824 - acc: 0.6000
+ 65/445 [===>..........................] 65/445 [===>..........................] - ETA: 0s - loss: 0.5567 - acc: 0.8308
+165/445 [==========>...................]165/445 [==========>...................] - ETA: 0s - loss: 0.5579 - acc: 0.8424
+285/445 [==================>...........]285/445 [==================>...........] - ETA: 0s - loss: 0.5576 - acc: 0.8526
+390/445 [=========================>....]390/445 [=========================>....] - ETA: 0s - loss: 0.5570 - acc: 0.8538
+445/445 [==============================]445/445 [==============================] - 0s 524us/step - loss: 0.5582 - acc: 0.8472
+
+
+==> saida_32,64,128,64,32,2_1000_5_squared_hinge_selu_rms_fim.txt <==
+445/445 [==============================]445/445 [==============================] - 0s 377us/step - loss: 0.7618 - acc: 0.4764
+
+Epoch 1000/1000
+
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 0.9000 - acc: 0.2000
+130/445 [=======>......................]130/445 [=======>......................] - ETA: 0s - loss: 0.7615 - acc: 0.4769
+270/445 [=================>............]270/445 [=================>............] - ETA: 0s - loss: 0.7593 - acc: 0.4815
+385/445 [========================>.....]385/445 [========================>.....] - ETA: 0s - loss: 0.7610 - acc: 0.4779
+445/445 [==============================]445/445 [==============================] - 0s 404us/step - loss: 0.7618 - acc: 0.4764
+
+
+==> saida_32,64,128,64,32,2_1000_5_squared_hinge_selu_sgd_fim.txt <==
+225/445 [==============>...............]225/445 [==============>...............] - ETA: 0s - loss: 0.5348 - acc: 0.8889
+445/445 [==============================]445/445 [==============================] - 0s 229us/step - loss: 0.5254 - acc: 0.9258
+
+Epoch 1000/1000
+
+  5/445 [..............................]  5/445 [..............................] - ETA: 0s - loss: 0.5106 - acc: 1.0000
+225/445 [==============>...............]225/445 [==============>...............] - ETA: 0s - loss: 0.5290 - acc: 0.9156
+440/445 [============================>.]440/445 [============================>.] - ETA: 0s - loss: 0.5240 - acc: 0.9364
+445/445 [==============================]445/445 [==============================] - 0s 235us/step - loss: 0.5239 - acc: 0.9371
+

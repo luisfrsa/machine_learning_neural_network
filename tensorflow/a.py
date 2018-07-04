@@ -7,7 +7,7 @@ param_optimizer = sys.argv[2]
 param_epochs = sys.argv[3]
 param_batch_size = sys.argv[4]
 param_loss = sys.argv[5]
-param_activation = sys.argv[5]
+param_activation = sys.argv[6]
 
 
 # print(param_Dense)
