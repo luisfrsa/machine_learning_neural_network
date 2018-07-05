@@ -14,11 +14,11 @@ import sys
 
 
 param_Dense = sys.argv[1]
-param_epochs = int(sys.argv[2])
-param_batch_size = int(sys.argv[3])
-param_loss = sys.argv[4]
+param_epochs = int(sys.argv[2]) # começa baixo,e aumenta
+param_batch_size = int(sys.argv[3]) # começa alto e diminuiria
+param_loss = sys.argv[4] # whatever
 param_activation = sys.argv[5]
-param_optimizer = sys.argv[6]
+param_optimizer = sys.argv[6] # começa alto e diminui inicia com 1e-2, 1e-3, 1e-4
 param_new = sys.argv[7]
 
 if(param_loss=='mean_squared_logarithmic_error'):
