@@ -24,12 +24,19 @@ param_new = sys.argv[7]
 param_opt = sys.argv[8]
 param_finish = sys.argv[9]
 
-if(param_opt=="2"):
-    param_opt_rate = 1e-2;
+if(param_opt=="1"):
+    param_opt_rate = 1e-1;
+elif(param_opt=="2"):
+    param_opt_rate = 1e-2;     
 elif(param_opt=="3"):
     param_opt_rate = 1e-3;
 elif(param_opt=="4"):
     param_opt_rate = 1e-4;
+elif(param_opt=="5"):
+    param_opt_rate = 5e-5;
+elif(param_opt=="6"):
+    param_opt_rate = 1e-5;    
+       
 
 
 if(param_loss=='mean_squared_logarithmic_error'):
@@ -111,20 +118,22 @@ model.compile(
 #     optimizer=tf.keras.optimizers.SGD(1e-2),
 #     metrics=['accuracy']
 # )
-
 if(param_finish=="0"):
     tensorboard = tf.keras.callbacks.TensorBoard(log_dir='./logs/' +filename, histogram_freq=0, write_graph=True, write_images=False)
+    treino_data = normalized_data[:3000]
+    treino_label = formated_labels[:3000]
+    tests_data = normalized_data[3000:]
+    tests_label = formated_labels[3000:]
     model.fit(
-        normalized_data,
-        formated_labels,
+        treino_data,
+        treino_label,
         epochs=param_epochs,
         shuffle=True,
         batch_size=param_batch_size,
         callbacks=[tensorboard],
-        # validation_data=(test_x,test_y)
+        validation_data=(tests_data,tests_label)
     )
     model.save(filename)
-else:
-    model.predict(normalized_data)
+   
 
 

@@ -1,0 +1,6 @@
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Traceback (most recent call last):
+  File "neural_luis.py", line 19, in <module>
+    param_batch_size = int(sys.argv[3])
+ValueError: invalid literal for int() with base 10: 'mean_squared_logarithmic_error'
