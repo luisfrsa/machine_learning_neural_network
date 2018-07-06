@@ -2,38 +2,39 @@ echo "Try";
 
 
 layers="32,64,128,64,2"
-epoca1"200"
-epoca2="400"
+epoca="1000"
+epoca2="2000"
 
 
-echo "1";
-python neural_luis.py $layers $epoca2 64 mean_squared_logarithmic_error elu sgd 1 1 0 > result/saida01.txt 2>&1;
-echo "2";
-python neural_luis.py $layers $epoca2 64 mean_squared_logarithmic_error elu sgd 0 2 0 > result/saida02.txt 2>&1;
-echo "3";
-python neural_luis.py $layers $epoca2 32 mean_squared_logarithmic_error elu sgd 0 2 0 > result/saida03.txt 2>&1;
-echo "4";
-python neural_luis.py $layers $epoca 16 mean_squared_logarithmic_error elu sgd 0 2 0 > result/saida04.txt 2>&1;
-echo "5";
-python neural_luis.py $layers $epoca2 64 mean_squared_logarithmic_error elu sgd 0 3 0 > result/saida05.txt 2>&1;
-echo "6";
-python neural_luis.py $layers $epoca2 32 mean_squared_logarithmic_error elu sgd 0 3 0 > result/saida06.txt 2>&1;
-echo "7";
-python neural_luis.py $layers $epoca 16 mean_squared_logarithmic_error elu sgd 0 3 0 > result/saida07.txt 2>&1;
-echo "8";
-python neural_luis.py $layers $epoca2 64 mean_squared_logarithmic_error elu sgd 0 3 0 > result/saida08.txt 2>&1;
-echo "9";
-python neural_luis.py $layers $epoca2 32 mean_squared_logarithmic_error elu sgd 0 3 0 > result/saida09.txt 2>&1;
-echo "10";
-python neural_luis.py $layers $epoca 16 mean_squared_logarithmic_error elu sgd 0 3 0 > result/saida010.txt 2>&1;
-echo "11";
-python neural_luis.py $layers $epoca2 64 mean_squared_logarithmic_error elu sgd 0 3 0 > result/saida011.txt 2>&1;
-echo "12";
-python neural_luis.py $layers $epoca2 32 mean_squared_logarithmic_error elu sgd 0 3 0 > result/saida012.txt 2>&1;
-echo "13";
-python neural_luis.py $layers $epoca 16 mean_squared_logarithmic_error elu sgd 0 3 0 > result/saida013.txt 2>&1;
-echo "14";
-python neural_luis.py $layers $epoca2 64 mean_squared_logarithmic_error elu sgd 0 4 0 > result/saida014.txt 2>&1;
+# echo "1";
+# python neural_luis.py $layers $epoca2 64 mean_squared_logarithmic_error elu sgd 1 1 0 > result/saida01.txt 2>&1;
+# python neural_luis.py $layers $epoca2 32 mean_squared_logarithmic_error elu sgd 0 1 0 > result/saida011.txt 2>&1;
+# echo "2";
+# python neural_luis.py $layers $epoca2 64 mean_squared_logarithmic_error elu sgd 0 2 0 > result/saida02.txt 2>&1;
+# echo "3";
+# python neural_luis.py $layers $epoca2 32 mean_squared_logarithmic_error elu sgd 0 2 0 > result/saida03.txt 2>&1;
+# echo "4";
+# python neural_luis.py $layers $epoca 16 mean_squared_logarithmic_error elu sgd 0 2 0 > result/saida04.txt 2>&1;
+# echo "5";
+# python neural_luis.py $layers $epoca2 64 mean_squared_logarithmic_error elu sgd 0 3 0 > result/saida05.txt 2>&1;
+# echo "6";
+# python neural_luis.py $layers $epoca2 32 mean_squared_logarithmic_error elu sgd 0 3 0 > result/saida06.txt 2>&1;
+# echo "7";
+# python neural_luis.py $layers $epoca 16 mean_squared_logarithmic_error elu sgd 0 3 0 > result/saida07.txt 2>&1;
+# echo "8";
+# python neural_luis.py $layers $epoca2 64 mean_squared_logarithmic_error elu sgd 0 3 0 > result/saida08.txt 2>&1;
+# echo "9";
+# python neural_luis.py $layers $epoca2 32 mean_squared_logarithmic_error elu sgd 0 3 0 > result/saida09.txt 2>&1;
+# echo "10";
+# python neural_luis.py $layers $epoca 16 mean_squared_logarithmic_error elu sgd 0 3 0 > result/saida010.txt 2>&1;
+# echo "11";
+# python neural_luis.py $layers $epoca2 64 mean_squared_logarithmic_error elu sgd 0 3 0 > result/saida011.txt 2>&1;
+# echo "12";
+# python neural_luis.py $layers $epoca2 32 mean_squared_logarithmic_error elu sgd 0 3 0 > result/saida012.txt 2>&1;
+# echo "13";
+# python neural_luis.py $layers $epoca 16 mean_squared_logarithmic_error elu sgd 0 3 0 > result/saida013.txt 2>&1;
+# echo "14";
+# python neural_luis.py $layers $epoca2 64 mean_squared_logarithmic_error elu sgd 0 4 0 > result/saida014.txt 2>&1;
 echo "15";
 python neural_luis.py $layers $epoca2 32 mean_squared_logarithmic_error elu sgd 0 4 0 > result/saida015.txt 2>&1;
 echo "16";
@@ -104,4 +105,4 @@ echo "temp";
 # python neural_luis.py $layers $epoca 32 mean_squared_logarithmic_error elu sgd 0 4 0 > result/saida24.txt 2>&1;
 echo "Finish";
 
-python neural_luis.py $layers 400 32 mean_squared_logarithmic_error elu sgd 1 4 0 > result/saida_final.txt 2>&1;
+# python neural_luis.py $layers 400 32 mean_squared_logarithmic_error elu sgd 1 4 0 > result/saida_final.txt 2>&1;
