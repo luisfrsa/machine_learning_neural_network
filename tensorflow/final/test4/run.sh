@@ -1,15 +1,17 @@
 echo "Try";
 
 
-layers="32,64,128,64,2"
+layers="16,32,64,32,2"
 epoca="1000"
 epoca2="2000"
-
+echo "Try";
 
 echo "1";
 python neural_luis.py $layers $epoca2 64 mean_squared_logarithmic_error elu sgd 1 1 0 > result/saida01.txt 2>&1;
+echo "1";
 python neural_luis.py $layers $epoca2 32 mean_squared_logarithmic_error elu sgd 0 1 0 > result/saida01.1.txt 2>&1;
-# python neural_luis.py $layers $epoca 16 mean_squared_logarithmic_error elu sgd 0 1 0 > result/saida012.txt 2>&1;
+echo "1";
+python neural_luis.py $layers $epoca 16 mean_squared_logarithmic_error elu sgd 0 1 0 > result/saida01.2.txt 2>&1;
 echo "2";
 python neural_luis.py $layers $epoca2 64 mean_squared_logarithmic_error elu sgd 0 2 0 > result/saida02.txt 2>&1;
 echo "3";
