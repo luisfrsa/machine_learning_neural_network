@@ -1,1 +1,0 @@
-tail  5  *.txt  > saida.txt
